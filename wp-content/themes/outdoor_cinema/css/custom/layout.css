@@ -290,7 +290,7 @@ a:hover{
 	margin-bottom: -160px;
 }
 
-.page-template-city-page-template {
+.page-template-city-page-template, .page-template-default {
 	padding-top: 0 !important;
 }
 
@@ -904,9 +904,20 @@ input[type="button"]:hover {
   content: "\f09a";
 }
 
+.social-footer .instagram-btn:before {
+  font-family: "FontAwesome";
+  content: "\f16d";
+}
+
 .social-footer .twitter-btn:before {
   font-family: "FontAwesome";
   content: "\f099";
+}
+
+.entry-content {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
 }
 
 .social-footer .social-btn {
@@ -927,6 +938,14 @@ input[type="button"]:hover {
 	border-radius: 25px;
 	-moz-border-radius: 25px;
 	-webkit-border-radius: 25px;
+}
+
+.footer-links {
+	margin-top: 20px;
+}
+
+.footer-links a:hover {
+	color: #ddd;
 }
 
 .social-footer .social-btn:hover {
@@ -997,7 +1016,7 @@ form.inner, #signup-form table {
 	font-family: 'loveloblack';
 	letter-spacing: 1px;
 	padding: 15px 10px !important;
-	font-size: 18px;
+	font-size: 18px !important;
 }
 
 .submit-button:hover, .wpcf7-submit:hover {
@@ -1011,7 +1030,7 @@ form.inner, #signup-form table {
 	text-transform: uppercase;
 	width: 100%;
 	border-radius: 0;
-	margin-bottom: 25px;
+	margin-bottom: 12px;
 	background: white;
 	color: #36394a;
 	padding: 15px 10px;
@@ -1095,6 +1114,9 @@ form.inner, #signup-form table {
 	}
 	nav select {
 		width: 100%;
+	}
+	.page {
+		padding-top: 50px;
 	}
 	.parallax {height: 200px;}
 	.dropmenu { display: block; margin-top: 12px; }

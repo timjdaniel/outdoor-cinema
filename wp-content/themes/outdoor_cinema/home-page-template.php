@@ -76,7 +76,7 @@ get_header();
                    <?php endwhile;	}	?>	
                </select>
 
-               <button type="button" class="submit-button" disabled onclick="openLink(document.forms['select-city']), '_top'">
+               <button type="button" class="submit-button" disabled="" onclick="openLink(document.forms['select-city']), '_top'">
                 Select
             </button>
         </form>
@@ -141,7 +141,7 @@ get_header();
     function openLink(myForm) {         
             var selectedIndex = myForm.elements["links"].selectedIndex;
             var url = myForm.elements["links"].options[selectedIndex].value;
-            window.open(url, '_top');
+            window.open(url, '_blank');
         }
 
         jQuery(function() {

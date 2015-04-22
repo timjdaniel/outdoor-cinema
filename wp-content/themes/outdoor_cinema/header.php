@@ -175,39 +175,6 @@
 	 	</div>
 	</div>
 
-	<nav class="inner-nav">
-
-    <div class="container">
-
-        <div class="ten columns">
-
-            <!-- Start Nav Menu -->
-            <ul class="menu" id="nav">
-                <li><a href="<?php echo esc_url( get_home_url() ); ?>/#section_1">About Us</a></li>
-                <li><a href="<?php echo esc_url( get_home_url() ); ?>/#section_2">Cities</a></li>
-                <li><a href="<?php echo esc_url( get_home_url() ); ?>/#section_3">Sign Up</a></li>
-                <li><a href="<?php echo esc_url( get_home_url() ); ?>/#section_4">FAQ's</a></li>
-                <li><a href="<?php echo esc_url( get_home_url() ); ?>/#section_5">Contact</a></li>
-            </ul>
-            <!-- End Nav Menu -->
-
-            <!-- Start Dropmenu for mobile -->      
-            <select class="dropmenu" name="dropmenu" onchange="moveTo(this.value)">
-                <option value="" selected="selected">Menu</option>
-                <option value="<?php echo esc_url( get_home_url() ); ?>/#section_1">About Us</option>
-                <option value="<?php echo esc_url( get_home_url() ); ?>/#section_2">Cities</option>
-				<option value="<?php echo esc_url( get_home_url() ); ?>/#section_3">Sign Up</option>
-                <option value="<?php echo esc_url( get_home_url() ); ?>/#section_4">FAQ's</option>
-                <option value="<?php echo esc_url( get_home_url() ); ?>/#section_5">Contact</option>
-                </select>
-                <!-- End Dropmenu for mobile -->
-                
-            </div>
-
-        </div>
-
-    </nav>
-
 <?php } ?>
 
 <br />

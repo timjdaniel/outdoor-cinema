@@ -16,8 +16,14 @@
     </div>
 
     <div class="column social-footer">
-      <a class="facebook-btn social-btn" href="#"></a>
-      <a class="twitter-btn social-btn" href="#"></a>
+      <a class="facebook-btn social-btn" href="https://www.facebook.com/TheOutdoorCinema" target="_blank"></a>
+      <a class="twitter-btn social-btn" href="https://twitter.com/outdoorcinemauk" target="_blank"></a>
+      <a class="instagram-btn social-btn" href="https://instagram.com/TheOutdoorCinema" target="_blank"></a>
+    </div>
+    <br /><br /><br />
+    <div class="footer-links column">
+    	<a href="<?php echo esc_url( get_home_url() ); ?>/privacy-policy" style="margin-right:20px;">Privacy Poilicy</a>
+    	<a href="<?php echo esc_url( get_home_url() ); ?>/cookie-policy">Cookie Policy</a>
     </div>
 </div>
 
