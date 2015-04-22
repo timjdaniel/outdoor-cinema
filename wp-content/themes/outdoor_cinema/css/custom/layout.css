@@ -935,6 +935,10 @@ input[type="button"]:hover {
 	background: #ddd;
 }
 
+.city-page #signup-form {
+	padding: 0 20px;
+}
+
 #signup-form {
 	margin: 0 auto;
 	text-transform: uppercase;
@@ -944,6 +948,7 @@ input[type="button"]:hover {
 #signup-form table {
 	margin: 0 auto;
 	width: 100%;
+	overflow: hidden;
 }
 
 form.inner, #signup-form table {
@@ -963,6 +968,7 @@ form.inner, #signup-form table {
     text-transform: uppercase;
     background: white;
     border-radius: 0;
+    padding: 15px 10px;
 
 }
 
@@ -975,6 +981,11 @@ form.inner, #signup-form table {
 	background: transparent !important;
 }
 
+.wpcf7-form p {
+	overflow: hidden;
+}
+
+
 .submit-button, .wpcf7-submit {
 	background: transparent !important;
 	width: 100%;
@@ -984,6 +995,8 @@ form.inner, #signup-form table {
 	padding: 5px 10px;
 	font-family: 'loveloblack';
 	letter-spacing: 1px;
+	padding: 15px 10px !important;
+	font-size: 18px;
 }
 
 .submit-button:hover, .wpcf7-submit:hover {
@@ -1000,6 +1013,7 @@ form.inner, #signup-form table {
 	margin-bottom: 25px;
 	background: white;
 	color: #36394a;
+	padding: 15px 10px;
 }
 		
 /* MISC
@@ -1109,6 +1123,6 @@ form.inner, #signup-form table {
 	h1 {font-size: 50px;}
 	h1 span{font-size: 60px;}
 	.teamImage h2 {margin-top: 105px; font-size:40px;}
-	input[type="text"], input[type="password"], input[type="email"], textarea, select {width: 298px;}
+	input[type="text"], input[type="password"], input[type="email"], textarea, select {width: 100%;}
 
 }
