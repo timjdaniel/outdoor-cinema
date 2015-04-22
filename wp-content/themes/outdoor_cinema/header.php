@@ -159,11 +159,10 @@
 <!--End homepage -->
 
 <?php } else { ?>
-
 	<div id="homepage" class="homepage section inner-head" style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/images/parallax-2.jpg);">
 	    <div class="container">
 	        <div class="ten columns">
-	            <a href="/outdoor-cinema"><img alt="Outdoor Cinema" class="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png" /></a>
+	            <a href="<?php echo esc_url( get_home_url() ); ?>"><img alt="Outdoor Cinema" class="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png" /></a>
 	        </div> 
 			<!-- THIS WILL REPLACE HEAD IMAGE WITH VIDEO        
 				<a id="bgndVideo" href="http://www.youtube.com/watch?v=n614-d2i6ok" class="movie { isBgndMovie:{width:'window',mute:false}, optimizeDisplay:true, showControls:true, ratio:'12/9',startAt:3,quality:'hd720',addRaster:true,lightCrop:true}"></a>
@@ -179,22 +178,22 @@
 
             <!-- Start Nav Menu -->
             <ul class="menu" id="nav">
-                <li><a href="/outdoor-cinema/#section_1">About Us</a></li>
-                <li><a href="/outdoor-cinema/#section_2">Cities</a></li>
-                <li><a href="/outdoor-cinema/#section_3">Sign Up</a></li>
-                <li><a href="/outdoor-cinema/#section_4">FAQ's</a></li>
-                <li><a href="/outdoor-cinema/#section_5">Contact</a></li>
+                <li><a href="<?php echo esc_url( get_home_url() ); ?>/#section_1">About Us</a></li>
+                <li><a href="<?php echo esc_url( get_home_url() ); ?>/#section_2">Cities</a></li>
+                <li><a href="<?php echo esc_url( get_home_url() ); ?>/#section_3">Sign Up</a></li>
+                <li><a href="<?php echo esc_url( get_home_url() ); ?>/#section_4">FAQ's</a></li>
+                <li><a href="<?php echo esc_url( get_home_url() ); ?>/#section_5">Contact</a></li>
             </ul>
             <!-- End Nav Menu -->
 
             <!-- Start Dropmenu for mobile -->      
             <select class="dropmenu" name="dropmenu" onchange="moveTo(this.value)">
                 <option value="" selected="selected">Menu</option>
-                <option value="/outdoor-cinema/#section_1">About Us</option>
-                <option value="/outdoor-cinema/#section_2">Cities</option>
-				<option value="/outdoor-cinema/#section_3">Sign Up</option>
-                <option value="/outdoor-cinema/#section_4">FAQ's</option>
-                <option value="/outdoor-cinema/#section_5">Contact</option>
+                <option value="<?php echo esc_url( get_home_url() ); ?>/#section_1">About Us</option>
+                <option value="<?php echo esc_url( get_home_url() ); ?>/#section_2">Cities</option>
+				<option value="<?php echo esc_url( get_home_url() ); ?>/#section_3">Sign Up</option>
+                <option value="<?php echo esc_url( get_home_url() ); ?>/#section_4">FAQ's</option>
+                <option value="<?php echo esc_url( get_home_url() ); ?>/#section_5">Contact</option>
                 </select>
                 <!-- End Dropmenu for mobile -->
                 

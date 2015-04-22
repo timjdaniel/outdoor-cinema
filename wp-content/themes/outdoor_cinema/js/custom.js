@@ -35,17 +35,6 @@ $(document).ready(function () {
         return false;
     });
 
-
-//LAZY LOADING -------------------------------------------------------------------------/
-  	$(function () {
-		if (lazyload == false || isMobile == true) return false;
-        $("img.lazy").lazyload({
-            placeholder : "images/blank.gif",
-            effect : "fadeIn"
-        });
-    });
-
-
 //PARALLAX ----------------------------------------------------------------------------/
 	$(window).bind('load', function () {
 		parallaxInit();						  
