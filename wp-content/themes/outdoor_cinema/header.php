@@ -111,6 +111,11 @@
 
 	<!-- Start Homepage -->
 	<div id="homepage" class="homepage section">
+		<div class="stars"></div>
+		<div class="stars-2"></div>
+		<div class="stars-3"></div>
+		<!-- <div class="twinkling"></div> -->
+
 	    <div class="container">
 	        <div class="ten columns">
 	            <img alt="Outdoor Cinema" class="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png" />

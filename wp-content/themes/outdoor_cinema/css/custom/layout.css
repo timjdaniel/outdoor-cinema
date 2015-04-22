@@ -385,6 +385,7 @@ nav ul li a:hover {
 }
 .logo {
 	position: absolute;
+	z-index: 99999;
 	top: 32%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -1125,4 +1126,118 @@ form.inner, #signup-form table {
 	.teamImage h2 {margin-top: 105px; font-size:40px;}
 	input[type="text"], input[type="password"], input[type="email"], textarea, select {width: 100%;}
 
+}
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+
+.stars, .twinkling, .stars-2, .stars-3  {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background: transparent url(stars.png) repeat top center;
+  z-index:0;
+}
+
+.stars-2 {
+  background: transparent url(stars-2.png) repeat top center;
+  z-index:0;
+}
+
+.stars-3 {
+  background: transparent url(stars-3.png) repeat top center;
+  z-index:0;
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity:0.5; }
+  50%  { opacity:0; }
+  100% { opacity:0.5; }
+}
+@-o-keyframes flickerAnimation {
+  0%   { opacity:0.5; }
+  50%  { opacity:0; }
+  100% { opacity:0.5; }
+}
+@-moz-keyframes flickerAnimation {
+  0%   { opacity:0.5; }
+  50%  { opacity:0; }
+  100% { opacity:0.5; }
+}
+@-webkit-keyframes flickerAnimation {
+  0%   { opacity:0.5; }
+  50%  { opacity:0; }
+  100% { opacity:0.5; }
+}
+
+@keyframes flickerAnimation-2 {
+  0%   { opacity:0.6; }
+  25%  { opacity:0; }
+  100% { opacity:0.6; }
+}
+@-o-keyframes flickerAnimation-2 {
+  0%   { opacity:0.6; }
+  25%  { opacity:0; }
+  100% { opacity:0.6; }
+}
+@-moz-keyframes flickerAnimation-2 {
+  0%   { opacity:0.6; }
+  25%  { opacity:0; }
+  100% { opacity:0.6; }
+}
+@-webkit-keyframes flickerAnimation-2 {
+  0%   { opacity:0.6; }
+  25%  { opacity:0; }
+  100% { opacity:0.6; }
+}
+
+@keyframes flickerAnimation-3 {
+  0%   { opacity:0.6; }
+  25%  { opacity:0; }
+  75% { opacity:0.6; }
+}
+@-o-keyframes flickerAnimation-3 {
+  0%   { opacity:0.6; }
+  25%  { opacity:0; }
+  75% { opacity:0.6; }
+}
+@-moz-keyframes flickerAnimation-3 {
+  0%   { opacity:0.6; }
+  25%  { opacity:0; }
+  75% { opacity:0.6; }
+}
+@-webkit-keyframes flickerAnimation-3 {
+  0%   { opacity:0.6; }
+  25%  { opacity:0; }
+  75% { opacity:0.6; }
+}
+
+.stars, .stars-2, .stars-3 {
+   -webkit-animation: flickerAnimation 2s infinite;
+   -moz-animation: flickerAnimation 2s infinite;
+   -o-animation: flickerAnimation 2s infinite;
+    animation: flickerAnimation 2s infinite;
 }
