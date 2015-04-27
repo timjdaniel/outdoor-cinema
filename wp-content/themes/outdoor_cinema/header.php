@@ -20,6 +20,8 @@
 	<![endif]-->
 	<script>(function(){document.documentElement.className='js'})();</script>
 
+	<link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/favicon.ico">
+
 	<!-- CSS Styles -->
     <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/custom/skeleton.css"> 
     <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/custom/layout.css">
